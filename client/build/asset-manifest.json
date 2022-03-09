@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.80bb74ab.css",
+    "main.js": "/static/js/main.7061feb0.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/carlogo.PNG": "/static/media/carlogo.5911000ebbc9a5f27956.PNG",
+    "index.html": "/index.html",
+    "main.80bb74ab.css.map": "/static/css/main.80bb74ab.css.map",
+    "main.7061feb0.js.map": "/static/js/main.7061feb0.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.80bb74ab.css",
+    "static/js/main.7061feb0.js"
+  ]
+}

@@ -1,0 +1,25 @@
+.form {
+    text-align: left;
+    padding: 1em;
+  }
+  .form input,
+  .form textarea {
+    font-size: 1em;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .form div {
+    margin-bottom: 0.5em;
+  }
+  .form button {
+    font-size: 1em;
+    width: 100%;
+  }
+  .form.error {
+    outline: 2px solid #f00;
+  }
+
+  .btn-dark{
+    background-color: #28cc70 !important;
+  }
+  

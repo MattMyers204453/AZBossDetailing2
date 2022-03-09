@@ -1,0 +1,34 @@
+.navbar-custom {
+    background-color: rgba(140, 139, 139, 0.3);
+    align-items: center;
+    display: flex;
+}
+
+.navbar-brand-custom {
+    align-items: center;
+    display: flex;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+.center-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:50vh;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.content {
+    
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
