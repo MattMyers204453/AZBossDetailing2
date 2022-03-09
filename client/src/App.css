@@ -25,10 +25,15 @@
 }
 
 .content {
-    
     position: absolute;
     left: 40%;
     top: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+}
+
+.title{
+    font-size: 80px;
+    color: #28cc70;
+    left: 40%;
 }
