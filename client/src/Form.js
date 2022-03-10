@@ -90,7 +90,6 @@ class Form extends Component {
                 <button type="button" disabled={this.state.submitting} class="btn btn-dark" onClick={this.onSubmit}>
                     Submit
                 </button>
-
             </div>
         );
     }

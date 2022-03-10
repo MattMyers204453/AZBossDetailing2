@@ -36,7 +36,9 @@ class App extends Component {
               Back
             </button>
           </nav>
-          <Gallery />
+          <div>
+            <Gallery />
+          </div>
         </body>
       );
     }
@@ -52,7 +54,10 @@ class App extends Component {
               Before/after pictures
             </button>
           </nav>
-          <div className="content">
+          <div className="my-center3">
+            <div className="my-center">
+              Submit your information and receive a free quote.
+            </div>
             <Form submitComplete={this.submitComplete} />
           </div>
         </body>
