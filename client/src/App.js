@@ -69,7 +69,7 @@ class App extends Component {
           </nav>
           <div className="center-text">
             <h1 style={{ color: 'rgba(255, 255, 255, 0.8)' }}>
-              Thanks. You will be contacted shortly..
+              Thanks. You will be contacted shortly.
             </h1>
           </div>
         </body>
