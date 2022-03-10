@@ -36,6 +36,7 @@ class App extends Component {
               Back
             </button>
           </nav>
+          <Gallery />
         </body>
       );
     }
