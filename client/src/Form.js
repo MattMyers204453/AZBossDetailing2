@@ -78,63 +78,6 @@ class Form extends Component {
                 });
                 this.state.submitComplete();
             });
-        /*
-          .then(data => {
-              if (data.success) {
-                  this.setState({
-                      error: false,
-                      submitting: false,
-                      message: {
-                          fullname: '',
-                          phone: '',
-                          make: '',
-                          model: ''
-                      }
-                  });
-              } else {
-                  this.setState({
-                      error: true,
-                      submitting: false
-                  });
-              }
-          })
-          .then(() => {
-              this.state.submitComplete();
-          });
-          */
-        /*
-        this.setState({ submitting: true });
-        fetch('/api/messages', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(this.state.message)
-        })
-            .then(res => res.json())
-            .then(data => {
-                if (data.success) {
-                    this.setState({
-                        error: false,
-                        submitting: false,
-                        message: {
-                            fullname: '',
-                            phone: '',
-                            make: '',
-                            model: ''
-                        }
-                    });
-                } else {
-                    this.setState({
-                        error: true,
-                        submitting: false
-                    });
-                }
-            })
-            .then(() => {
-                this.state.submitComplete();
-            });
-            */
     }
 
     render() {

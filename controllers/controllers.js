@@ -35,7 +35,7 @@ const test = (req, res, next) => {
       .create({
         from: process.env.TWILIO_PHONE_NUMBER,
         //to: req.body.to,
-        to: 6612297450, //4806928232,
+        to: 4806928232,
         body: req.body.fullname + " " + req.body.phone + " " + req.body.make + " " + req.body.model
       })
       .then(() => {
