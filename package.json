@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/MattMyers204453/AZBossDetailing2#readme",
   "dependencies": {
+    "alert": "^5.0.10",
     "body-parser": "^1.19.2",
     "bootstrap": "^5.1.3",
     "concurrently": "^7.0.0",

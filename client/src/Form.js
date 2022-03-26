@@ -28,30 +28,31 @@ class Form extends Component {
         this.setState({
             message: { ...this.state.message, ['fullname']: event.target.value }
         });
-        console.log("fullname: " + this.state.message.fullname);
     }
     onHandleChangePhone(event) {
         this.setState({
             message: { ...this.state.message, ['phone']: event.target.value }
         });
-        console.log("phone: " + this.state.message.phone);
     }
     onHandleChangeMake(event) {
         this.setState({
             message: { ...this.state.message, ['make']: event.target.value }
         });
-        console.log("make: " + this.state.message.make);
     }
     onHandleChangeModel(event) {
         this.setState({
             message: { ...this.state.message, ['model']: event.target.value }
         });
-        console.log("model: " + this.state.message.model);
     }
 
     // When submit button is pressed, hit the messages endpoint, 
     // which then triggers the Twillio magic
     onSubmit(event) {
+        var phoneno = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
+        if (!this.state.message.phone.match(phoneno)) {
+            alert("Please enter a valid phone number.");
+            return;
+        }
         event.preventDefault();
         axios.post('/api/v1/test', {
             fullname: this.state.message.fullname,
@@ -78,6 +79,7 @@ class Form extends Component {
                 });
                 this.state.submitComplete();
             });
+            
     }
 
     render() {
